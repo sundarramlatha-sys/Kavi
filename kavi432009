@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Sainidith</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fc;
+            color: #222;
+        }
+
+        header {
+            background: #14213d;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        nav {
+            background: #0077b6;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 25px;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #0077b6;
+        }
+
+        .button {
+            display: inline-block;
+            background: #0077b6;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #14213d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi, I'm Sainidith 👋</h1>
+        <p>First-Year EE (VLSI) Student | Future VLSI Engineer</p>
+        <p>KPR Institute of Engineering and Technology, Coimbatore</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a first-year Electrical Engineering student
+            specializing in VLSI. I am passionate about electronics,
+            semiconductor technology, and programming.
+            I enjoy learning new technologies and building projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>C Programming</li>
+            <li>Python</li>
+            <li>C++ (Learning)</li>
+            <li>MATLAB</li>
+            <li>Basic Electronics</li>
+            <li>VLSI Fundamentals (Learning)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <h3>Smart Silo Monitoring System</h3>
+        <p>
+            A student project using ESP32 and sensors
+            to monitor silo conditions.
+        </p>
+
+        <h3>Future VLSI Projects</h3>
+        <p>
+            I aim to develop projects related to CMOS circuits,
+            digital electronics, and chip design.
+        </p>
+
+        <a class="button"
+           href="https://github.com/sainidithr-creator"
+           target="_blank">
+           Visit My GitHub
+        </a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>LinkedIn:
+            <a href="https://www.linkedin.com/in/sainidith-r"
+               target="_blank">My LinkedIn Profile</a>
+        </p>
+        <p>GitHub:
+            <a href="https://github.com/sainidithr-creator"
+               target="_blank">My GitHub Profile</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Sainidith | My Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
